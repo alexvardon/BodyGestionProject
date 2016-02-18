@@ -1,0 +1,4 @@
+Pompes|icon_pompe|Muscles1,Muscles2|Normalement il y a un text de description de l'exercice POMPES mais là comme j'ai pas trop d'inspiration et que je Nono a bientot fini ses cours j'ai pas le temps pour vraiment faire quelque chose de bien ^^ Mais si vous voulez vous pouvez avoir la description du film StarTrek en cliquant sur les autres exercices ;)
+Abdos|icon_abdo|Muscles1,Muscles2|Dans un futur proche, face à une Terre exsangue, un groupe d'explorateurs utilise un vaisseau interstellaire pour franchir un trou de ver permettant de parcourir des distances jusque-là infranchissables. Leur but : trouver un nouveau foyer pour l'humanité.
+Test|icon_abdo|Muscles1,Muscles2|Dans un futur proche, face à une Terre exsangue, un groupe d'explorateurs utilise un vaisseau interstellaire pour franchir un trou de ver permettant de parcourir des distances jusque-là infranchissables. Leur but : trouver un nouveau foyer pour l'humanité.
+

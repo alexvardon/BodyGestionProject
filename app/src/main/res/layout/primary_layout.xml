@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Full Body"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/material_blue_grey_800"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:id="@+id/layout_pompe"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/exercice1MainActivity"
+                android:src="@drawable/icon_pompe"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Pompes"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nbreSeries"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="Nbre series: 5"
+                android:layout_below="@+id/textView2"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nbreRepetitions"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="Nbre répétitions: 20"
+                android:layout_below="@+id/nbreSeries"
+                android:layout_alignLeft="@+id/nbreSeries"
+                android:layout_alignStart="@+id/nbreSeries" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/material_blue_grey_800"
+            android:layout_marginTop="8dp"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/exercice2MainActivity"
+                android:src="@drawable/icon_abdo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Crunches"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/textView2Exo2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nbreSeriesExo2"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="Nbre series: 3"
+                android:layout_below="@+id/textView2Exo2"
+                android:layout_alignLeft="@+id/textView2Exo2"
+                android:layout_alignStart="@+id/textView2Exo2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nbreRepetitionsExo2"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="Nbre répétitions: 20"
+                android:layout_below="@+id/nbreSeriesExo2"
+                android:layout_alignLeft="@+id/nbreSeriesExo2"
+                android:layout_alignStart="@+id/nbreSeriesExo2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/material_blue_grey_800"
+            android:layout_marginTop="8dp"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/exercice3MainActivity"
+                android:src="@drawable/icon_squat"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Squats"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/textView2Exo3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nbreSeriesExo3"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="Nbre series: 3"
+                android:layout_below="@+id/textView2Exo3"
+                android:layout_alignLeft="@+id/textView2Exo3"
+                android:layout_alignStart="@+id/textView2Exo3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nbreRepetitionsExo3"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="Nbre répétitions: 25"
+                android:layout_below="@+id/nbreSeriesExo3"
+                android:layout_alignLeft="@+id/nbreSeriesExo3"
+                android:layout_alignStart="@+id/nbreSeriesExo3" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="(à venir)"
+        android:textColor="#000"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>

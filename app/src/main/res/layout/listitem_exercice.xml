@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_blue_grey_800"
+        android:layout_marginTop="8dp"
+        android:id="@+id/relativelayout_exercice"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ceciestuntest"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Pompes"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/nom_exercice_layout"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nbreSeries_exercice_layout"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="Nbre series: 5"
+            android:layout_below="@+id/nom_exercice_layout"
+            android:layout_alignLeft="@+id/nom_exercice_layout"
+            android:layout_alignStart="@+id/nom_exercice_layout" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nbreRepetitions_exercice_layout"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="Nbre répétitions: 20"
+            android:layout_below="@+id/nbreSeries_exercice_layout"
+            android:layout_alignLeft="@+id/nbreSeries_exercice_layout"
+            android:layout_alignStart="@+id/nbreSeries_exercice_layout" />
+    </RelativeLayout>
+
+</LinearLayout>
