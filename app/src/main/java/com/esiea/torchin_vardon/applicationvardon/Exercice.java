@@ -1,5 +1,5 @@
 package com.esiea.torchin_vardon.applicationvardon;
-// TEST PUSH
+// Pas utilisé on utilise exercice test
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -24,7 +24,7 @@ public class Exercice {
 
 
     private Exercice(Cursor cursor) {
-        //  DVD dvd = new DVD();
+        //  Permet de recup les objets (?)
         id = cursor.getLong(cursor.getColumnIndex("id"));
         nom = cursor.getString(cursor.getColumnIndex("nom"));
         iconPath = cursor.getString(cursor.getColumnIndex("iconPath"));
@@ -84,8 +84,8 @@ public class Exercice {
 
     public static ArrayList<Exercice> getExerciceList(Context context) {
         ArrayList<Exercice> listExercice = new ArrayList<Exercice>();
-        LocalSQLiteOpenHelper helper = new LocalSQLiteOpenHelper(context);
-        SQLiteDatabase db = helper.getReadableDatabase();
+        LocalSQLiteOpenHelper helper = new LocalSQLiteOpenHelper(context);// BDD
+        SQLiteDatabase db = helper.getReadableDatabase();// recup la data base
         Cursor cursor = db.query(true, "EXERCICE", new String[]{"id", "nom", "iconPath", "muscles", "resume"},
                 null, null,null,null,"nom", null  );
 

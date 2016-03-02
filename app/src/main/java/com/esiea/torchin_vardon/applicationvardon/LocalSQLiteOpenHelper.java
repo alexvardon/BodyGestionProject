@@ -1,5 +1,7 @@
 package com.esiea.torchin_vardon.applicationvardon;
 
+// Base de données
+
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
